@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head><meta charset="utf-8" />
+      <title>InstantMeteo</title>
+      <script type="text/javascript" src="remplissage.js"></script>
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<h2 class="">Je vous donne la m&eacute;t&eacute;o ! </h2>
+		<form>
+			<input id="text" type="text" name="ville" placeholder="Entrez le nom d&#146;une ville"/>  <br/><br/>
+			<input id="but" type="button" value="Valider" onClick="go(this.form)"/>
+		</form>
+		<table>
+			<tr>
+				<td>Ville </td><td id="ville"></td>
+			</tr>
+			<tr>
+				<td>Temp&eacute;rature en &deg;c </td><td id="temp"></td> </tr>
+			<tr>
+				<td>Pression en hPa </td><td id="P"></td></tr>
+			<tr>
+				<td>Humidit&eacute; en &#37; </td><td id="H"></td></tr>
+			<tr>
+				<td>Vent en km/h </td><td id="V"></td>
+			</tr>
+			<tr>
+				<td>Direction du vent en &deg; </td><td id="Dir"></td></tr>
+			<tr>
+				<td>Description du ciel</td><td id="DC"></td></tr>
+		</table>
+	</body>
+</html>
